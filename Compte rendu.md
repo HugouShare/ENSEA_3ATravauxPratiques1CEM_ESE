@@ -1,27 +1,15 @@
-# 💼 ENSEA_3ATravauxPratiquesCEM_ESE 💼
+# Travaux pratiques CEM : utilisation de la méthode DF pour la simulation CEM
 
-## 📋 Table des matières
+## Contexte global
+### Objectifs :  
+- Calcul du potentiel électrique par la méthode des différences finies (potentiel scalaire)
+- Calcul des grandeurs dérivées (champ électrique et capacité) illustratives sur un cas CEM
+### Compétences visées :  
+- Connaitre les éléments constitutifs d’un modèle électromagnétique : domaine de calcul, source, conditions initiales, conditions aux limites, convergence
+- Utilisation d’un outil de simulation & développement numérique (sous environnement Matlab / Octave)
+- Post-traitement des données & sensibilisation aux grandeurs CEM (capacité)
+### Contrôle des connaissances :  
+- Rendu d’un compte-rendu des travaux suite à la séance présentielle
 
-- [Équipe](#équipe)
-- [Introduction](#introduction)
-- [Organisation du repository](#organisation-du-repository)
-
----
-
-## 👨🏽 Équipe
-
-<div align="left">
-
-   **🙋‍♂️ [Hugo CARVALHO FONTES](https://github.com/HugouShare)**
-
-</div>
-
-## ⚙️ Introduction
-
-- Dans ce repository GitHub, vous trouverez mon TP de CEM réalisé dans le cadre de ma dernière année d'étude à l'[ENSEA](https://www.ensea.fr/fr), en spécialité électronique et systèmes embarqués.
-
-## 🎯 Organisation du repository
-Vous trouverez, dans le repository, différents dossiers avec :
-- Les sujets liés au TP
-- Les fichiers générés ou utilisés durant le TP
-- Un fichier markdown servant de rapport de TP
+## A. Introduction  
+Durant ce TP, nous allons utiliser la méthode des différences finies DF afin de mo...
