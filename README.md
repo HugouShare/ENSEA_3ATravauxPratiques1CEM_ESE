@@ -22,6 +22,6 @@
 
 ## 🎯 Organisation du repository
 Vous trouverez, dans le repository, différents dossiers avec :
-- Les sujets liés au TP
-- Les fichiers générés ou utilisés durant le TP
-- Un fichier markdown servant de rapport de TP
+- "_Ressources_" : les sujets et documents fournis par le professeur pour le TP
+- "_Livrables_" : les fichiers générés ou utilisés par moi-même durant le TP
+- "_Compte rendu_" : un fichier markdown servant de rapport de TP
