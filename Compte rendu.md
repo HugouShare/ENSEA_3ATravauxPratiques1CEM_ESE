@@ -1,0 +1,27 @@
+# 💼 ENSEA_3ATravauxPratiquesCEM_ESE 💼
+
+## 📋 Table des matières
+
+- [Équipe](#équipe)
+- [Introduction](#introduction)
+- [Organisation du repository](#organisation-du-repository)
+
+---
+
+## 👨🏽 Équipe
+
+<div align="left">
+
+   **🙋‍♂️ [Hugo CARVALHO FONTES](https://github.com/HugouShare)**
+
+</div>
+
+## ⚙️ Introduction
+
+- Dans ce repository GitHub, vous trouverez mon TP de CEM réalisé dans le cadre de ma dernière année d'étude à l'[ENSEA](https://www.ensea.fr/fr), en spécialité électronique et systèmes embarqués.
+
+## 🎯 Organisation du repository
+Vous trouverez, dans le repository, différents dossiers avec :
+- Les sujets liés au TP
+- Les fichiers générés ou utilisés durant le TP
+- Un fichier markdown servant de rapport de TP
