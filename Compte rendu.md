@@ -134,5 +134,27 @@ Malgré les avantages que présentent la méthode des différences finies, il y 
 - Les conditions aux limites doivent être réelles et finies sinon le calcul se complexie voire devient impossible. 
 - Enfin, la principale limite de la méthode des différences finies est la dimension dans laquelle elle reste applicable. De fait, dès que l'on passe dans un espace à plus de 2 dimensions, le calcul par DF devient très long en terme de temps et très gourmand en terme de ressources.
 
+Nous appliquons maintenant tout ce qui a été vu durant ce TP au cas d'un câble coaxial.  
+Tout d'abord, nous commençons par modéliser ce nouveau système. Nous définissons cet fois un espace de travail tel quel Nx=Ny=201 mailles, avec dx=dy=1, ainsi que v1=-1V (potentiel du conducteur extérieur), v2=1V (potentiel de l'âme du câble coaxial) et v0=0V (potentiel du milieu de propagation).  
+Une fois le problème modélisé, il ne nous reste plus qu'à appliquer la méthode des DF dans notre cas, qui est celui d'un câble coaxial.  
+Enfin, pour le calcul de la capacité équivalente du câble coaxial, il nous faut modifier la surface considérée.  
+Suite à ces modifications, nous obtenons alors les résultats suivants :  
 
-
+<p align="left">
+  <img width="1122" height="819" alt="unnamed" src="https://github.com/user-attachments/assets/ab07979f-1371-4317-af3b-e9e11d5886b5" />
+  <br>
+  <em>Modélisation du cas d'un câble coaxial avec une tension d'âme de 1V, une tension dans le milieu de propagation de 0V et une tension de -1V pour le conducteur extérieur</em>
+</p>  <p align="left">
+  <img width="1030" height="813" alt="unnamed-1" src="https://github.com/user-attachments/assets/c4e71c7f-cb16-4801-9f1b-d3d52c4ae17a" />
+  <br>
+  <em>Application de la méthode des DF au cas d'un câble coaxial</em>
+</p>  <p align="left">
+  <img width="895" height="805" alt="unnamed" src="https://github.com/user-attachments/assets/66500caf-9b84-4695-b473-ca9742b0cf44" />
+  <br>
+  <em>Représentation des lignes d'équipotentielles et du champ électrique d'un modèle de câble coaxial</em>
+</p>  
+  
+Après exécution du script nous obtenons, en choisissant eps = 1e-3 et itmax = 10000, un nombre de 360 itérations. Cela semble plutôt cohérent au vu de notre modèle et du seuil eps fixé.   
+De plus, en procédant de manière identique à ce qui a été fait lors de la Q7, nous obtenons une capacité équivalente de câble coaxial : Cnumérique = 4.11e-13 F.  
+En considérant l'expression donnée dans le sujet, nous obtenons : Cthéorique = 5.50e-11 F.  
+Nous observons donc un léger écart entre la valeur obtenue numériquement et celle obtenue théoriquement. Cet écart s'explique de par les causes exposées précédemment.
