@@ -56,9 +56,9 @@ end
 
 % Ici, on définit une surface autour des deux conducteurs QUI NE COUPE PAS LES DEUX CONDUCTEURS !!! 
 % Calcul de la valeur de la capacité des condos
-EScalDs = -sum(Ey(50,50:150))+sum(Ey(150,50:150))-sum(Ex(50:150,50))+sum(Ex(50:150,150));
+EScalDs = -sum(Ey(160,40:160))+sum(Ey(40,40:160))-sum(Ex(40:160,160))+sum(Ex(40:160,40)); % réadaptation de la surface considérée
 Q = EScalDs*8.854e-12;
-C = Q/200;
+C = Q/1; % car (Vj - Vi) = (Vâme du cable coaxial - Vmilieu de propagation) = (1 - 0) = 1V
 
 %% Figure
 figure;
