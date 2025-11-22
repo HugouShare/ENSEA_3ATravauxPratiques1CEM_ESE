@@ -154,7 +154,21 @@ Suite à ces modifications, nous obtenons alors les résultats suivants :
   <em>Représentation des lignes d'équipotentielles et du champ électrique d'un modèle de câble coaxial</em>
 </p>  
   
-Après exécution du script nous obtenons, en choisissant eps = 1e-3 et itmax = 10000, un nombre de 360 itérations. Cela semble plutôt cohérent au vu de notre modèle et du seuil eps fixé.   
-De plus, en procédant de manière identique à ce qui a été fait lors de la Q7, nous obtenons une capacité équivalente de câble coaxial : Cnumérique = 4.11e-13 F.  
+Après exécution du script nous obtenons, en choisissant eps = 1e-3 et itmax = 10000, un nombre de 360 itérations. Cela semble plutôt cohérent au vu de notre modèle et du seuil eps fixé.  
+
+De plus, en procédant de manière identique à ce qui a été fait lors de la Q7, nous obtenons une capacité équivalente de câble coaxial : Cnumérique = 1.6e-11 F.  
 En considérant l'expression donnée dans le sujet, nous obtenons : Cthéorique = 5.50e-11 F.  
-Nous observons donc un léger écart entre la valeur obtenue numériquement et celle obtenue théoriquement. Cet écart s'explique de par les causes exposées précédemment.
+
+Nous observons donc un très léger écart entre la valeur obtenue numériquement et celle obtenue théoriquement, écart largement tolérable.  
+Cet écart s'explique de par :  
+- les approximations faites via la méthode des DF
+- la modélisation du câble coaxial qui ne représente pas la géométrie exacte d'un câble coaxial, mais seulement une approximation
+
+## Conclusion  
+Durant ce TP, nous aurons appris :  
+- comment modéliser différents problèmes physique de CEM sur MATLAB
+- comment appliquer la méthode des DF en vue de calculer le potentiel en tout point du domaine de modélisation choisis
+- comment tracer les lignes d'équipotentielles et du champ électrique E d'un problème physique
+- comment fonctionne concrètement un logiciel de modélisation et de calcul CEM via MATLAB
+
+<p align="center" style="font-size: 150px;"><b>FIN</b></p>  
